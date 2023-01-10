@@ -14,6 +14,8 @@
     
     <div class = "container">
     <!-- NAV bar -->
+    <!--This section holds the navbar HTML code. It uses Bootstrap4 componets to display different webpage sections, and 
+    provides navigational jumps to the specific section you click on.-->
         <nav class="navbar navbar-expand-lg navbar-light bg-info">
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
@@ -35,6 +37,8 @@
           </nav>
 <!-- END NAV BAR -->
 <!-- JUMBOTRON -->
+<!--This section uses a Bootstrap4 jumbotron to catch the users eye. It displays the name of the move theatre as well as
+some text.-->
           <div class="jumbotron jumbotron-fluid bg-info text-center">
             <div class="container">
               <h1 class="display-4 text-light">The Academy Cinemas</h1>
@@ -44,6 +48,9 @@
 <!-- END JUMBOTRON -->
 
 <!-- ABOUT SECTION -->
+<!--
+    This section uses columns within a container to display an image, accomodation information and a now playing section. 
+-->
         <div class="container">
             <h3 id="about">About</h3>
             <div class="row">
@@ -79,6 +86,12 @@
     <!-- END ABOUT SECTION -->
         
 <!--START CARDS-->
+<!--
+The following section includes different cards used to convey specific movie titles and the showtimes of those movies.
+A combination of bootstrap components are used to complete this task, such as cards, pill badges and images. The CSS involved
+in the styling is consistant across all HTML elements, so if I make a change to one card, all cards are changed in the same way. 
+-->
+
 <h3 id="showtimes">Showtimes:</h3>
 <div class="card-deck">
     
@@ -89,12 +102,12 @@
             <p class="card-text">A team of scientists explore an uncharted island in the Pacific,
                 venturing into the domain of the mighty Kong, and must fight to escape a primal Eden.
             </p>
-            <span class="badge bagde-pill badge-info">12:00 p.m.</span>
-            <span class="badge bagde-pill badge-info">1:30 p.m.</span>
-            <span class="badge bagde-pill badge-info">3:00 p.m.</span>
-            <span class="badge bagde-pill badge-info">5:30 p.m.</span>
-            <span class="badge bagde-pill badge-info">7:00 p.m.</span>
-            <span class="badge bagde-pill badge-info">9:30 p.m.</span>
+            <span class="badge badge-pill badge-info">12:00 p.m.</span>
+            <span class="badge badge-pill badge-info">1:30 p.m.</span>
+            <span class="badge badge-pill badge-info">3:00 p.m.</span>
+            <span class="badge badge-pill badge-info">5:30 p.m.</span>
+            <span class="badge badge-pill badge-info">7:00 p.m.</span>
+            <span class="badge badge-pill badge-info">9:30 p.m.</span>
         </div>
     </div>
     <div class="card">
@@ -105,12 +118,12 @@
                 a human saved from a terrible crash, who is cyber-enhanced to be a perfect soldier
                 devoted to stopping the world's most dangerous criminals.
             </p>
-            <span class="badge bagde-pill badge-info">12:00 p.m.</span>
-            <span class="badge bagde-pill badge-info">1:30 p.m.</span>
-            <span class="badge bagde-pill badge-info">3:00 p.m.</span>
-            <span class="badge bagde-pill badge-info">5:30 p.m.</span>
-            <span class="badge bagde-pill badge-info">7:00 p.m.</span>
-            <span class="badge bagde-pill badge-info">9:30 p.m.</span>
+            <span class="badge badge-pill badge-info">12:00 p.m.</span>
+            <span class="badge badge-pill badge-info">1:30 p.m.</span>
+            <span class="badge badge-pill badge-info">3:00 p.m.</span>
+            <span class="badge badge-pill badge-info">5:30 p.m.</span>
+            <span class="badge badge-pill badge-info">7:00 p.m.</span>
+            <span class="badge badge-pill badge-info">9:30 p.m.</span>
         </div>
     </div>
     <div class="card">
@@ -120,46 +133,49 @@
             <p class="card-text">A selfish prince is cursed to become a monster for the rest
                 of his life, unless he learns to fall in love with a woman he keeps as prisoner.
             </p>
-            <span class="badge bagde-pill badge-info">12:00 p.m.</span>
-            <span class="badge bagde-pill badge-info">1:30 p.m.</span>
-            <span class="badge bagde-pill badge-info">3:00 p.m.</span>
-            <span class="badge bagde-pill badge-info">5:30 p.m.</span>
-            <span class="badge bagde-pill badge-info">7:00 p.m.</span>
-            <span class="badge bagde-pill badge-info">9:30 p.m.</span>
+            <span class="badge badge-pill badge-info">12:00 p.m.</span>
+            <span class="badge badge-pill badge-info">1:30 p.m.</span>
+            <span class="badge badge-pill badge-info">3:00 p.m.</span>
+            <span class="badge badge-pill badge-info">5:30 p.m.</span>
+            <span class="badge badge-pill badge-info">7:00 p.m.</span>
+            <span class="badge badge-pill badge-info">9:30 p.m.</span>
         </div>
     </div>
 </div>
-
-
-
-
-
-
 <!--END CARDS-->
-    <!-- Showtimes 
-    <div class="container">
-        <h3 id="showtimes">Showtimes:</h3>
-        <div class="row">
-             <div class="col-sm">
-                 <img class="img-fluid" src="./img/kongskullisland.jpeg" alt=""/>
-            </div>
-            <div class="col-sm">
-                <div class="col-sm">
-                    <img class="img-fluid" src="./img/ghostintheshell.jpeg" alt=""/>
-               </div>
-            </div>
-            <div class="col-sm">
-                <div class="col-sm">
-                    <img class="img-fluid" src="./img/beautyandthebeast.jpeg" alt=""/>
-               </div>
-            </div>
+
+<!--BEGIN ALERT-->
+<!--This section includes a bootstrap4 alert. -->
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+    <strong>Holy guacamole!</strong> Sign up below within the next 5 minutes for a pair of free movie tickets!.
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+<!--END ALERT-->
+
+
+
+     <!--JUMBOTRON HEADING-->
+     <!--This section includes a jumbotron to catch the users eye and to convince them to sign up for the mailing list.
+    It uses a bootstrap4 jumbotron.-->
+    <div class="jumbotron jumbotron-fluid bg-info mt-5 text-center">
+        <div class="container">
+            <h1 class="display-4 hidden-sm-down" style="color:#fff; font-family:roboto;font-weight:900; text-transform:uppercase;">
+            Movie Deals</h1>
+            <p class="lead">Check out our monthly deals...</p>
+            <!--MOVIE DEALS-->
+            <!--This movie deal button opens up a registration form when clicked-->
+            <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#register">See our monthly movie deals</button>
+
+            <!--END MOVIE DEALS-->
         </div>
     </div>
+     <!--END JUMBOTRON HEADING-->
 
-
-
-     END Showtimes -->
-
+    <!--BEGIN REWARDS-->
+    <!--This section is kind of redundant now that we have a modal. It includes an email input and signup button that
+    has a popover componant attached.-->
         <div class="text-center">
             <form>
                 <h1 class="text-primary my-5">Sign up for movie club Rewards!</h1>
@@ -167,10 +183,58 @@
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                 </div>
                 
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="button" class="btn btn-secondary btn-info popover-dismiss" data-container="body" data-toggle="popover" data-placement="right" data-content="Submit your email to receive magnificent movie rewards!">
+                    Sign up!
+                </button>
             </form>
         </div>
+       <!--END REWARDS-->
+        <!--FORM MODAL-->
+        <!--This section contains a modal, which provides the user a sign up form after clicking on the "See our monthly movie deals" button.
+        It is created with bootstrap4. -->
+        <div class="modal" id="register" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Register to receive movie deals.</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <fieldset class="form-group">
+                                <label for="firstname">First Name:</label>
+                                <input type="text" class="form-control" id="firstname" placeholder="First Name...">
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <label for="lastname">Last Name:</label>
+                                <input type="" class="form-control" id="lastname" placeholder="Last Name...">
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" id="email" placeholder="Email...">
+                            </fieldset>
+                            <fieldset class="form-group">
+                                <label for="password">Password:</label>
+                                <input type="password" class="form-control" id="password" placeholder="Password...">
+                            </fieldset>
+                        </form>
 
+
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+        <!--END FORM MODAL-->
+        <!--FOOTER?-->
         <div class="container my-5">
             <h3 id="deals"></h3>
             <ul class="nav nav-inline">
@@ -189,7 +253,7 @@
             </ul>
 
         </div>
-
+        <!--END FOOTER-->
 
 
     </div>
@@ -201,4 +265,10 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
+  <script>
+    $('.popover-dismiss').popover({
+        trigger: 'focus'
+        });
+
+  </script>
 </html>
